@@ -42,7 +42,7 @@
         android:layout_height="40sp"
         android:layout_margin="10dp"
         android:autoSizeTextType="uniform"
-        android:text="Codigo: GB18I004001"
+        android:text="Codigo: GB18I04001"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
