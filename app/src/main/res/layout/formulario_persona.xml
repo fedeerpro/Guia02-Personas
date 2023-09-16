@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp">
+
+
+    <TextView
+        android:id="@+id/txvNombreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Persona:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtNombreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txvNombreed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:minHeight="48dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/txvApellidoed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido persona:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtNombreed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtApellidoed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txvApellidoed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:minHeight="48dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/txvEdaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad Persona:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtApellidoed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtEdaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txvEdaded"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:minHeight="48dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txvCorreoed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo persona:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/edtEdaded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edtCorreoed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txvCorreoed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:minHeight="48dp"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnProcesarAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Procesar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtCorreoed"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mis_datos">
+
+    <TextView
+        android:id="@+id/txvMisdatos"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:autoSizeTextType="uniform"
+        android:text="Mis Datos"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <TextView
+        android:id="@+id/txvmiNombre"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="10dp"
+        android:autoSizeTextType="uniform"
+        android:text="Nombre: Angel Alexander Garcia Barrera"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txvMisdatos"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/txvmiApellido"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_margin="10dp"
+        android:autoSizeTextType="uniform"
+        android:text="Codigo: GB18I004001"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txvmiNombre"
+        app:layout_constraintVertical_bias="0.231" />
+</androidx.constraintlayout.widget.ConstraintLayout>
